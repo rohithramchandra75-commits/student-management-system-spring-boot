@@ -1,0 +1,132 @@
+/* ==============================
+   Student Management System
+   style.css
+============================== */
+
+body{
+    background:#f4f7fc;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar{
+    box-shadow:0 2px 10px rgba(0,0,0,0.2);
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+/* Dashboard Cards */
+
+.bg-primary{
+    border-radius:15px;
+}
+
+.bg-success{
+    border-radius:15px;
+}
+
+.bg-warning{
+    border-radius:15px;
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.btn-primary:hover{
+    transform:scale(1.03);
+}
+
+.btn-success:hover{
+    transform:scale(1.03);
+}
+
+.btn-warning:hover{
+    transform:scale(1.03);
+}
+
+.btn-danger:hover{
+    transform:scale(1.03);
+}
+
+/* Table */
+
+.table{
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.table th{
+    text-align:center;
+    vertical-align:middle;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* Form */
+
+.form-control{
+    border-radius:8px;
+    padding:10px;
+}
+
+.form-control:focus{
+    box-shadow:0 0 5px #0d6efd;
+}
+
+/* Headings */
+
+h1,h2,h3,h4,h5{
+    font-weight:bold;
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+}
+
+/* Search */
+
+.search-box{
+    margin-bottom:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+    h1{
+        font-size:28px;
+    }
+
+    .table{
+        font-size:13px;
+    }
+
+    .btn{
+        margin-top:5px;
+    }
+
+}

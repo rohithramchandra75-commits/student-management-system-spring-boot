@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Student Productivity Portal</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Daily Task Tracker</h1>
+            <p>Manage your Daily Tasks Here!</p>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="tasks.html">Tasks</a>
+            <a href="signup.html" id="signuplink">Sign Up</a>
+            <a href="login.html" id="loginlink">Login</a>
+            <a href="#" id="logoutBtn">Logout</a>
+        </nav>
+        <section>
+            <h3>Daily Tasks</h3>
+
+            <div class="form-box">
+                <label> Add Task</label>
+                <input type="text" id="taskInput">
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+            <br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="taskList">
+                    
+                </tbody>
+            </table>
+        </section>
+        <footer>
+            <h3>Thanks</h3>
+            <p>© Ashank David</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
